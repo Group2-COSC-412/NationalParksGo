@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 671123637}
   - component: {fileID: 671123636}
   - component: {fileID: 671123635}
+  - component: {fileID: 671123640}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -298,8 +299,8 @@ MonoBehaviour:
   doubleResolution: 0
   defaultStyle: 1
   hideLabels: 0
-  landscapeColor: {r: 0, g: 0, b: 0, a: 0}
-  pointOfInterestsColor: {r: 0, g: 0, b: 0, a: 0}
+  landscapeColor: {r: 0.7205882, g: 0.11656572, b: 0.11656572, a: 0}
+  pointOfInterestsColor: {r: 0.09861592, g: 0.22844525, b: 0.7058823, a: 0}
   highwaysFill: {r: 0, g: 0, b: 0, a: 0}
   highwaysStroke: {r: 0, g: 0, b: 0, a: 0}
   arterialRoadsFill: {r: 0, g: 0, b: 0, a: 0}
@@ -376,3 +377,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &671123640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 671123634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e855a575fcb881a4c9b03471bf612b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

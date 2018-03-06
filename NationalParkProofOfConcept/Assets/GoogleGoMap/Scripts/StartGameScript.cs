@@ -13,7 +13,7 @@ public class StartGameScript : MonoBehaviour {
     void Start () {
         sceneNum = 0;
         button = button.GetComponent<Button>();
-        loader.GetType(Scene);
+        loader = new SceneManager();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,8 @@ public class StartGameScript : MonoBehaviour {
 
     public void ChangeScene()
     {
-        loader
+        SceneManager.LoadScene("MainGame");
+        
     }
 
    
