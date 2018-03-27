@@ -43,7 +43,7 @@ public class GoogleStaticMap : MonoBehaviour {
 	private MyPoint _centerMercator;
 	public MyPoint centerMercator {
 		set { 
-			_centerMercator = value;
+			_centerMercator = tileCenterMercator(centerLatLon);
 			_centerLatLon = mercatorPointToGeoPoint (value);
 		}	
 		get { 

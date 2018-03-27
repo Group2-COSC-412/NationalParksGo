@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StartMap : MonoBehaviour {
-    bool start;
+    bool start = true;
     GoogleStaticMap goog;
 	// Use this for initialization
 	void Start () {
@@ -17,6 +17,7 @@ public class StartMap : MonoBehaviour {
             goog = new GoogleStaticMap();
             goog.initialize();
             goog.DrawMap();
+            goog.DrawMapGUI();
         }
     }
 }

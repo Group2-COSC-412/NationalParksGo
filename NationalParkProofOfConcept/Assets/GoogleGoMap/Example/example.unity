@@ -548,6 +548,7 @@ GameObject:
   - component: {fileID: 1344216157}
   - component: {fileID: 1344216156}
   - component: {fileID: 1344216155}
+  - component: {fileID: 1344216160}
   m_Layer: 8
   m_Name: Map-1
   m_TagString: Map
@@ -573,7 +574,7 @@ MonoBehaviour:
   verticalSize: 512
   realWorldtoUnityWorldScale: {x: 0.1, y: 1}
   doubleResolution: 1
-  defaultStyle: 0
+  defaultStyle: 1
   hideLabels: 1
   landscapeColor: {r: 0.40331352, g: 1, b: 0, a: 0}
   pointOfInterestsColor: {r: 1, g: 1, b: 1, a: 1}
@@ -653,6 +654,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1344216160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344216154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e855a575fcb881a4c9b03471bf612b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1506333553
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,11 +14,12 @@ public class StartGameScript : MonoBehaviour {
         sceneNum = 0;
         button = button.GetComponent<Button>();
         loader = new SceneManager();
-	}
+        button.onClick.AddListener(ChangeScene);
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        button.onClick.AddListener(ChangeScene);
+        
 	}
 
     public void ChangeScene()
