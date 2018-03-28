@@ -284,7 +284,7 @@
       <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="JMOAssets">
-      <HintPath>Assets\JMO Assets\Editor\JMOAssets.dll</HintPath>
+      <HintPath>Assets\(Deprecated) JMO Assets\Editor\JMOAssets.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -294,19 +294,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
+    <Compile Include="Assets\(Deprecated) JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
     <Compile Include="Assets\Toon Style Water\Editor\Ed_functions.cs" />
     <Compile Include="Assets\Toon Style Water\Editor\EditorWrapperFunctions.cs" />
     <Compile Include="Assets\Toon Style Water\Editor\GodModeEditor.cs" />
     <Compile Include="Assets\Toon Style Water\Editor\WaterEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
-    <None Include="Assets\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
-    <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
-    <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
-    <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
-    <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
+    <None Include="Assets\(Deprecated) JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
+    <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
+    <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
+    <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
+    <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
     <None Include="Assets\Toon Style Water\ReadMe.txt" />
     <None Include="Assets\Toon Style Water\Sky\FluffyCloudsShader.shader" />
     <None Include="Assets\Toon Style Water\WaterSurface.shader" />
