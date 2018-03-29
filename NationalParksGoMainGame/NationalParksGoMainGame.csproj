@@ -289,6 +289,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\(Deprecated) JMO Assets\Toony Colors\Demo 2.0\TCF_Demo.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\TitleUI.cs" />
     <Compile Include="Assets\Toon Style Water\Example\GodMode.cs" />
     <Compile Include="Assets\Toon Style Water\FoamyWater.cs" />
     <Compile Include="Assets\Toon Style Water\Sky\skyController.cs" />
@@ -300,6 +302,7 @@
     <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
     <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
     <None Include="Assets\(Deprecated) JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
+    <None Include="Assets\LowpolyVegetationPackFree\Readme.txt" />
     <None Include="Assets\Toon Style Water\ReadMe.txt" />
     <None Include="Assets\Toon Style Water\Sky\FluffyCloudsShader.shader" />
     <None Include="Assets\Toon Style Water\WaterSurface.shader" />
