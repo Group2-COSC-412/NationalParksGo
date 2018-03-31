@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Code by 
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
@@ -81,12 +83,12 @@ public class PlayerMovement : MonoBehaviour
     public virtual void Update()
     {
 
-        //update colors
+        /*//update colors
         if (gameSettings.GetComponent<GameSettings>().playerColors.Length >= 2)
         {
             ParticleSystemRenderer ren = GetComponentInChildren<ParticleSystemRenderer>();
-            ren.material.color = ren.trailMaterial.color = gameSettings.GetComponent<GameSettings>().playerColors[playerNumber];
-        }
+            //ren.material.color = ren.trailMaterial.color = gameSettings.GetComponent<GameSettings>().playerColors[playerNumber];
+        }*/
 
 
         //update speeds
@@ -158,6 +160,7 @@ public class PlayerMovement : MonoBehaviour
 #endif
 
         //Controls for Android devices
+        //This is the control scheme we will be using
 #if UNITY_ANDROID
         Touch touch = Input.GetTouch(0);
 

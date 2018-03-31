@@ -1,0 +1,132 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class UIController : MonoBehaviour {
+
+    public GameObject gameSettings;
+
+    public GameObject mainMenu;
+    public GameObject creditsPage;
+    public GameObject settingsPage;
+    public GameObject gameUI;
+
+    public GameObject resultsPage;
+
+    //Results page stuff
+    public Slider player1Slider;
+    //public Slider player2Slider;
+    public Text winnerText;
+    public Text playerStateChoice;
+    //public Text player2Disease;
+    public Text playerParkChoice;
+    //public Text player2Score;
+
+    //settings page
+    public Dropdown player1Dropdown;
+    public Dropdown player2Dropdown;
+
+
+    public virtual void Start()
+    {
+        MainMenu();
+        ResultsScreen(false);
+
+        // disease options
+        GameSettings settings = gameSettings.GetComponent<GameSettings>();
+        List<Dropdown.OptionData> stateOptions = new List<Dropdown.OptionData>();
+
+        foreach (string s in settings.stateOptions) {
+            stateOptions.Add(new Dropdown.OptionData(s));
+        }
+
+        player1Dropdown.options = stateOptions;
+        player1Dropdown.value = settings.playerStateOption;
+    }
+
+    public void ShowLoginScreen(bool showLogin) {
+        SceneManager.LoadScene(showLogin ? "LoginScreen" : "SinglePlayer");
+    }
+
+    public virtual void PlayGame() {
+        mainMenu.SetActive(false);
+        creditsPage.SetActive(false);
+        settingsPage.SetActive(false);
+        gameUI.SetActive(true);
+    }
+
+    public virtual void CreditsPage() {
+        mainMenu.SetActive(false);
+        creditsPage.SetActive(true);
+        settingsPage.SetActive(false);
+        gameUI.SetActive(false);
+    }
+
+    public virtual void MainMenu() {
+        mainMenu.SetActive(true);
+        creditsPage.SetActive(false);
+        settingsPage.SetActive(false);
+        gameUI.SetActive(false);
+    }
+
+    public virtual void SettingsPage() {
+        mainMenu.SetActive(false);
+        creditsPage.SetActive(false);
+        settingsPage.SetActive(true);
+        gameUI.SetActive(false);
+    }
+
+
+    //[PunRPC]
+    public void ResultsScreen(bool show) {
+        resultsPage.SetActive(show);
+    }
+
+    public virtual void SetupResultsScreen(int player1, int player2, int doctor) {
+
+        gameUI.SetActive(false);
+
+        GameSettings settings = gameSettings.GetComponent<GameSettings>();
+
+        /*ColorBlock p1 = player1Slider.colors;
+        p1.normalColor = settings.playerColors[0];
+        p1.highlightedColor = settings.playerColors[0];
+        player1Slider.colors = p1;
+
+        ColorBlock p2 = player2Slider.colors;
+        p2.normalColor = settings.playerColors[1];
+        p2.highlightedColor = settings.playerColors[1];
+        player2Slider.colors = p2;
+
+        player1Slider.value = (float)player1 / (player1 + player2 + doctor);
+        player2Slider.value = (float)player2 / (player1 + player2 + doctor);
+
+        playerStateChoice.text = settings.diseaseOptions[settings.player1DiseaseOption] + " transmitted " + player1 + " diseases.";
+        player2Disease.text = settings.diseaseOptions[settings.player2DiseaseOption] + " transmitted " + player2 + " diseases.";
+
+        string winText = "The Winner is: ";
+        Color winColor = new Color(0, 0, 0);
+
+        if (player1 > player2)
+        {
+            winText += settings.diseaseOptions[settings.player1DiseaseOption];
+            winColor = settings.playerColors[0];
+        }
+        else if (player2 > player1) {
+            winText += settings.diseaseOptions[settings.player2DiseaseOption];
+            winColor = settings.playerColors[1];
+        } else {
+            winText = "You Tied!";
+        }
+
+        winnerText.text = winText;
+        winnerText.color = winColor;*/
+
+        playerParkChoice.text = player1.ToString();
+        //player2Score.text = player2.ToString();
+
+    }
+
+}
