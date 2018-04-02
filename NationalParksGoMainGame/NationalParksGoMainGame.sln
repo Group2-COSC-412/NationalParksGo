@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalParksGoMainGame", "NationalParksGoMainGame.csproj", "{FDD20065-E159-25CA-31E7-4004DC414637}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalParksGoMainGame.Editor", "NationalParksGoMainGame.Editor.csproj", "{455D2031-1FCD-E661-5258-6FBEFA365CD8}"
