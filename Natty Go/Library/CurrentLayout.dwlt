@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 587
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,10 +94,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 587
-  m_MinSize: {x: 681, y: 221}
-  m_MaxSize: {x: 12006, y: 4021}
+  m_MinSize: {x: 683, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 32
+  controlID: 10
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,34 +333,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Horse/Model
+    - Assets/Standard Assets/Environment/Water/Water/Textures
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Horse/Model
+  - Assets/Standard Assets/Environment/Water/Water/Textures
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\David\Documents\Current Courses\COSC 412\Project\GitHubGo\NationalParksGo\Natty
     Go
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 43}
-    m_SelectedIDs: 0c2a0000
-    m_LastClickedID: 10764
-    m_ExpandedIDs: 00000000e42800007e290000c8290000e02a0000502b00007e2c0000202d00002e2d00009c2d0000ca2d0000162e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e2d0000
+    m_LastClickedID: 11550
+    m_ExpandedIDs: 00000000de280000bc290000442b00006e2b0000702c0000122d0000202d00008e2d0000bc2d0000082e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Horse.fbm
-      m_OriginalName: Horse.fbm
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11680
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_SearchString: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4280000062900003a2900000c2a0000e02a0000502b00007c2b00007e2c00002e2d0000ca2d0000162e0000
+    m_ExpandedIDs: 00000000de28000072290000bc290000d42a0000442b0000702c0000122d0000202d00008e2d0000bc2d0000082e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,9 +399,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 542b0000
-    m_LastClickedInstanceID: 11092
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: fc2e0000
+    m_LastClickedInstanceID: 12028
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: a4270000de2a0000fa330000282c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -492,23 +492,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c2f0000
-    m_LastClickedID: 12044
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Water4Advanced
-      m_OriginalName: Water4Advanced
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -98710
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -545,14 +545,14 @@ MonoBehaviour:
     height: 566
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1626.8116450380292
+  lastFramingTime: 84829.6352806591
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1552.8302, y: 469.875, z: 1647.5762}
+    m_Target: {x: 1411.6475, y: 334.75, z: 1269.9199}
     speed: 2
-    m_Value: {x: 1552.8302, y: 469.875, z: 1647.5762}
+    m_Value: {x: 1411.6475, y: 334.75, z: 1269.9199}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -580,9 +580,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.7071069, y: 0, z: 0, w: 0.7071069}
   m_Size:
-    m_Target: 270.62225
+    m_Target: 2651.3103
     speed: 2
-    m_Value: 270.62225
+    m_Value: 2651.3103
   m_Ortho:
     m_Target: 1
     speed: 2
